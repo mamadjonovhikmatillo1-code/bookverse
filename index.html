@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookVerse</title>
+    <link rel="icon" href="Kitoblar olami neon emblemasi.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="royxat" id="royxat">
+
+    <div class="royxat-quti">
+        <div class="logo">📖 <b>Book</b>Verse</div>
+
+        <h1>Welcome to BookVerse</h1>
+        <p>Enter your information to continue</p>
+
+        <input type="text" id="ism" placeholder="Your name">
+        <input type="email" id="email1" placeholder="Your email">
+        <input type="password" id="parol" placeholder="Password">
+
+        <button id="kirish">Enter BookVerse</button>
+
+        <span id="xato"></span>
+    </div>
+
+</div>
+
+
+<div id="sayt">
+
+    <header>
+
+        <div class="logo">
+            📖 <b>Book</b>Verse
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#books">Books</a>
+            <a href="#categories">Categories</a>
+            <a href="#authors">Authors</a>
+            <a href="#about">About</a>
+            <a href="added.html">Added Books</a>
+        </nav>
+
+        <div class="header-buttons">
+            <button id="qidiruv">⌕</button>
+            <a href="added.html" class="savatcha">🛒</a>
+            <button id="rejim">☾</button>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-matn">
+
+                <small>WELCOME TO BOOKVERSE</small>
+
+                <h1>
+                    Discover Your
+                    <span>Next Story.</span>
+                </h1>
+
+                <p>
+                    Explore thousands of books, discover new authors,
+                    and find stories that stay with you forever.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#books">Explore Books</a>
+                    <a href="#categories">Browse Categories</a>
+                </div>
+
+            </div>
+
+            <div class="hero-kitob">
+                <div class="yulduz">✦</div>
+                <div class="kitob-rasm">📚</div>
+                <div class="uchuvchi-kitob">📖</div>
+            </div>
+
+        </section>
+
+
+        <section class="bolim" id="books">
+
+            <div class="sarlavha">
+                <small>TRENDING NOW</small>
+                <h2>Popular Books</h2>
+                <p>Stories everyone is talking about.</p>
+            </div>
+
+            <div class="kitoblar">
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova bir">📕</div>
+
+                    <h3>The Silent Patient</h3>
+                    <p>Alex Michaelides</p>
+
+                    <div class="reyting">★★★★★ <span>4.8</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova ikki">📘</div>
+
+                    <h3>Atomic Habits</h3>
+                    <p>James Clear</p>
+
+                    <div class="reyting">★★★★★ <span>4.9</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova uch">📗</div>
+
+                    <h3>It Ends With Us</h3>
+                    <p>Colleen Hoover</p>
+
+                    <div class="reyting">★★★★★ <span>4.7</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova tort">📙</div>
+
+                    <h3>Verity</h3>
+                    <p>Colleen Hoover</p>
+
+                    <div class="reyting">★★★★★ <span>4.8</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim kategoriyalar" id="categories">
+
+            <div class="sarlavha">
+                <small>EXPLORE</small>
+                <h2>Browse Categories</h2>
+            </div>
+
+            <div class="kategoriya-grid">
+
+                <div class="kategoriya">📚 <h3>Fiction</h3><p>2,450 books</p></div>
+                <div class="kategoriya">💡 <h3>Self Help</h3><p>1,280 books</p></div>
+                <div class="kategoriya">🔬 <h3>Science</h3><p>980 books</p></div>
+                <div class="kategoriya">❤️ <h3>Romance</h3><p>1,850 books</p></div>
+                <div class="kategoriya">🧙 <h3>Fantasy</h3><p>1,430 books</p></div>
+                <div class="kategoriya">🕵️ <h3>Mystery</h3><p>760 books</p></div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim featured">
+
+            <div class="featured-rasm">📖</div>
+
+            <div class="featured-matn">
+
+                <small>BOOK OF THE MONTH</small>
+
+                <h2>The Midnight Library</h2>
+
+                <p class="muallif">Matt Haig</p>
+
+                <p>
+                    Between life and death there is a library.
+                    And within that library, the shelves go on forever.
+                </p>
+
+                <button class="add-kitob">Add</button>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim">
+
+            <div class="sarlavha">
+                <small>BEST SELLERS</small>
+                <h2>Readers' Favorites</h2>
+                <p>The books readers keep coming back to.</p>
+            </div>
+
+            <div class="kichik-kartalar">
+
+                <div class="kichik-karta">
+                    <div>📕</div>
+                    <section>
+                        <h3>1984</h3>
+                        <p>George Orwell</p>
+                        <b>★★★★★</b>
+                    </section>
+                </div>
+
+                <div class="kichik-karta">
+                    <div>📘</div>
+                    <section>
+                        <h3>Rich Dad Poor Dad</h3>
+                        <p>Robert Kiyosaki</p>
+                        <b>★★★★★</b>
+                    </section>
+                </div>
+
+                <div class="kichik-karta">
+                    <div>📗</div>
+                    <section>
+                        <h3>The Alchemist</h3>
+                        <p>Paulo Coelho</p>
+                        <b>★★★★★</b>
+                    </section>
+                </div>
+
+                <div class="kichik-karta">
+                    <div>📙</div>
+                    <section>
+                        <h3>Harry Potter</h3>
+                        <p>J.K. Rowling</p>
+                        <b>★★★★★</b>
+                    </section>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim" id="authors">
+
+            <div class="sarlavha">
+                <small>MEET THE AUTHORS</small>
+                <h2>Popular Authors</h2>
+            </div>
+
+            <div class="mualliflar">
+
+                <div class="muallif-karta">
+                    <div>👩🏻</div>
+                    <h3>Colleen Hoover</h3>
+                    <p>12 Books</p>
+                </div>
+
+                <div class="muallif-karta">
+                    <div>👨🏻</div>
+                    <h3>James Clear</h3>
+                    <p>8 Books</p>
+                </div>
+
+                <div class="muallif-karta">
+                    <div>👨🏽</div>
+                    <h3>Matt Haig</h3>
+                    <p>15 Books</p>
+                </div>
+
+                <div class="muallif-karta">
+                    <div>👩🏽</div>
+                    <h3>J.K. Rowling</h3>
+                    <p>20 Books</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim iqtibos">
+
+            <div>“</div>
+
+            <h2>
+                A reader lives a thousand lives
+                before he dies.
+            </h2>
+
+            <p>— George R.R. Martin</p>
+
+        </section>
+
+
+        <section class="bolim statistika">
+
+            <div>
+                <b>50K+</b>
+                <span>Books</span>
+            </div>
+
+            <div>
+                <b>20K+</b>
+                <span>Readers</span>
+            </div>
+
+            <div>
+                <b>5K+</b>
+                <span>Authors</span>
+            </div>
+
+            <div>
+                <b>100+</b>
+                <span>Categories</span>
+            </div>
+
+        </section>
+
+
+        <section class="bolim sayohat">
+
+            <div class="sarlavha">
+                <small>YOUR JOURNEY</small>
+                <h2>Start Reading Today</h2>
+                <p>Find your next favorite story in three simple steps.</p>
+            </div>
+
+            <div class="qadamlar">
+
+                <div>
+                    <b>01</b>
+                    <h3>Discover</h3>
+                    <p>Explore books from different categories.</p>
+                </div>
+
+                <div>
+                    <b>02</b>
+                    <h3>Choose</h3>
+                    <p>Find the story that matches your mood.</p>
+                </div>
+
+                <div>
+                    <b>03</b>
+                    <h3>Read</h3>
+                    <p>Start reading and enjoy your journey.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim">
+
+            <div class="sarlavha">
+                <small>NEW ARRIVALS</small>
+                <h2>Fresh Stories</h2>
+            </div>
+
+            <div class="kitoblar">
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova besh">📓</div>
+
+                    <h3>Tomorrow</h3>
+                    <p>Gabrielle Zevin</p>
+
+                    <div class="reyting">★★★★★ <span>4.6</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova olti">📔</div>
+
+                    <h3>Yellowface</h3>
+                    <p>R.F. Kuang</p>
+
+                    <div class="reyting">★★★★★ <span>4.5</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+
+                <div class="kitob-karta">
+
+                    <button class="like">♡</button>
+
+                    <div class="muqova yetti">📒</div>
+
+                    <h3>Lessons in Chemistry</h3>
+                    <p>Bonnie Garmus</p>
+
+                    <div class="reyting">★★★★★ <span>4.7</span></div>
+
+                    <button class="add-kitob">Add</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim" id="about">
+
+            <div class="sarlavha">
+                <small>WHY BOOKVERSE</small>
+                <h2>More Than Just Books</h2>
+            </div>
+
+            <div class="afzalliklar">
+
+                <div>
+                    <span>⚡</span>
+                    <h3>Easy Discovery</h3>
+                    <p>Find amazing books quickly and easily.</p>
+                </div>
+
+                <div>
+                    <span>❤️</span>
+                    <h3>Save Favorites</h3>
+                    <p>Keep your favorite books in one place.</p>
+                </div>
+
+                <div>
+                    <span>🌎</span>
+                    <h3>Huge Collection</h3>
+                    <p>Thousands of stories are waiting for you.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim sharhlar">
+
+            <div class="sarlavha">
+                <small>READERS SAY</small>
+                <h2>What Readers Think</h2>
+            </div>
+
+            <div class="sharh-grid">
+
+                <div class="sharh">
+                    <div>★★★★★</div>
+                    <p>
+                        BookVerse helped me discover so many amazing books.
+                    </p>
+                    <b>— Sarah</b>
+                </div>
+
+                <div class="sharh">
+                    <div>★★★★★</div>
+                    <p>
+                        The collection is beautiful and very easy to explore.
+                    </p>
+                    <b>— Daniel</b>
+                </div>
+
+                <div class="sharh">
+                    <div>★★★★★</div>
+                    <p>
+                        I always find something interesting to read here.
+                    </p>
+                    <b>— Emma</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="bolim newsletter">
+
+            <small>STAY UPDATED</small>
+
+            <h2>Never Miss a Great Story</h2>
+
+            <p>Get new book recommendations every week.</p>
+
+            <div>
+                <input type="email" id="email" placeholder="Your email">
+                <button id="subscribe">Subscribe</button>
+            </div>
+
+            <span id="xabar"></span>
+
+        </section>
+
+
+        <section class="bolim cta">
+
+            <h2>Your next favorite book is waiting.</h2>
+
+            <p>Start exploring the world of stories today.</p>
+
+            <a href="#books">Explore Books</a>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            📖 <b>BookVerse</b>
+            <p>Discover stories. Create memories.</p>
+        </div>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#books">Books</a>
+            <a href="#categories">Categories</a>
+            <a href="added.html">Added Books</a>
+        </div>
+
+        <div>
+            <a href="#authors">Authors</a>
+            <a href="#about">About</a>
+        </div>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

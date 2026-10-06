@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+    background:#0b0910;
+    color:#fff;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    height:75px;
+    padding:0 8%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:#0b0910ee;
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid #ffffff12;
+}
+
+.logo{
+    font-size:22px;
+}
+
+.logo b{
+    color:#a66cff;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    color:#aaa;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover,
+nav a.active{
+    color:#a66cff;
+}
+
+.savatcha{
+    font-size:25px;
+}
+
+main{
+    max-width:1150px;
+    margin:auto;
+    padding:80px 25px;
+}
+
+.sarlavha{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.sarlavha small{
+    color:#a66cff;
+    letter-spacing:2px;
+}
+
+.sarlavha h1{
+    font-size:55px;
+    margin:15px 0;
+}
+
+.sarlavha p{
+    color:#888;
+}
+
+.kitoblar{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.kitob{
+    padding:15px;
+    background:#15111d;
+    border:1px solid #ffffff0d;
+    border-radius:16px;
+    animation:kirim .5s ease;
+    transition:.4s;
+}
+
+.kitob:hover{
+    transform:translateY(-9px);
+    border-color:#8b5cf655;
+    box-shadow:0 15px 35px #0008;
+}
+
+.muqova{
+    height:230px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:75px;
+    border-radius:12px;
+    background:linear-gradient(145deg,#8b5cf6,#35194f);
+}
+
+.kitob h3{
+    margin:17px 0 7px;
+}
+
+.kitob p{
+    color:#888;
+}
+
+.delete{
+    width:100%;
+    margin-top:17px;
+    padding:12px;
+    border:0;
+    border-radius:9px;
+    background:#331d29;
+    color:#ff668d;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.delete:hover{
+    background:#ff426f;
+    color:#fff;
+    transform:translateY(-3px);
+}
+
+.bosh{
+    display:none;
+    text-align:center;
+    padding:70px;
+    animation:kirim .5s ease;
+}
+
+.bosh div{
+    font-size:70px;
+}
+
+.bosh h2{
+    margin:15px 0;
+    font-size:30px;
+}
+
+.bosh p{
+    color:#888;
+}
+
+.bosh a{
+    display:inline-block;
+    margin-top:22px;
+    padding:13px 22px;
+    background:#8b5cf6;
+    color:#fff;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.bosh a:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 25px #8b5cf655;
+}
+
+@keyframes kirim{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
